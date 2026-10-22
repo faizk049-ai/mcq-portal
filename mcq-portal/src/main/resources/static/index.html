@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Examination Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>MCQ Examination Portal</h1>
+        <p>Welcome to the Online Examination System!</p>
+    </header>
+
+    <main>
+        <h2>Student Examination</h2>
+
+        <div id="question-container">
+            <p id="question-text">Loading question...</p>
+
+            <form id="answer-form">
+
+                <div class="answer-option">
+                    <input type="radio" id="optionA"
+                           name="answer" value="A">
+                    <label for="optionA" id="labelA">Option A</label>
+                </div>
+
+                <div class="answer-option">
+                    <input type="radio" id="optionB"
+                           name="answer" value="B">
+                    <label for="optionB" id="labelB">Option B</label>
+                </div>
+
+                <div class="answer-option">
+                    <input type="radio" id="optionC"
+                           name="answer" value="C">
+                    <label for="optionC" id="labelC">Option C</label>
+                </div>
+
+                <div class="answer-option">
+                    <input type="radio" id="optionD"
+                           name="answer" value="D">
+                    <label for="optionD" id="labelD">Option D</label>
+                </div>
+
+                <button type="submit" id="submit-button">
+                    Submit Answer
+                </button>
+
+            </form>
+
+            <p id="result" role="status"></p>
+        </div>
+    </main>
+<script src="script.js"></script>
+</body>
+</html>
